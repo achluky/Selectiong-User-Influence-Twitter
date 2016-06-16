@@ -20,7 +20,6 @@ import org.apache.hadoop.mapreduce.lib.reduce.IntSumReducer;
 import org.apache.hadoop.util.GenericOptionsParser;
 
 /**
- * 
  * @author ahmadluky
  * Chain Job Mapreduce
  */
@@ -259,8 +258,11 @@ public class Accessibility {
     // 4. get jumlah akun pos -
     // 5. get jumlah akun neg -
     private static void usage() {
-    	// data-in/accessibility/sentimen data-out/accessibility/sentimen data-in/accessibility/quote data-out/accessibility/quote data-in/accessibility/mention
-    	// data-out/accessibility/mention data-in/accessibility/reply data-out/accessibility/reply data-in/accessibility/following data-out/accessibility/out
+    	// data-in/accessibility/sentimen data-out/accessibility/sentimen 
+    	// data-in/accessibility/quote data-out/accessibility/quote 
+    	// data-in/accessibility/mention data-out/accessibility/mention 
+    	// data-in/accessibility/reply data-out/accessibility/reply 
+    	// data-in/accessibility/following data-out/accessibility/out
         System.err.println("usage: hadoop -jar <...> Accessibility <input sentimen> <output sentiment> "
         					+ "<input quote> <output quote> <input mention> <output mention>"
         					+ "<input reply> <output reply> <input following> <output result>");
