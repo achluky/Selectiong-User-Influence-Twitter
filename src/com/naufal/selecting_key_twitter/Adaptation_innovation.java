@@ -97,7 +97,7 @@ public class Adaptation_innovation {
             context.write(new Text(akun), new Text(fileTag + split[1])); // |akun, retweet|
 		}
 	}
-	//Favs |akun, favs|
+	//Favs |akun, tweet|
 	public static class TaskMapper_Favs extends Mapper<Object,Text,Text,Text> {
 		private String fileTag = "FAVS~";
 		public void map(Object key, Text value, Context context) throws IOException, InterruptedException 
