@@ -65,6 +65,11 @@ public class Exsternal_communication {
 	        System.err.println("usage: hadoop -jar <...> Exsternal_communication <input tweet> <output tweet>");
 	        System.exit(-1);
 	    }
+	    /**
+	     * ==================================================
+	     * @ahmadluky
+	     * ==================================================
+	     */
 		@SuppressWarnings("unused")
 		public static void main(String[] args) throws Exception
 		{

@@ -204,7 +204,7 @@ public class AccessibilityNew {
 	           		like = Double.parseDouble(split[0]);
 	           	}  
             }
-           	rst = (following + reply + mention + meretweet + like)/5;
+           	rst = following + reply + mention + meretweet + like;
             result.set(rst);
             context.write(key, result);
         }
